@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moaz Elanany | Mechatronics Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">ME<span class="accent">.</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#volunteering">Volunteering</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.pdf" class="nav-resume-btn" target="_blank">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, I am</p>
+            <h1 class="hero-name">Moaz Elanany</h1>
+            <h2 class="hero-title">I am a <span class="typing-text" id="typingText"></span><span class="cursor-blink">|</span></h2>
+            <p class="hero-subtitle">Mechatronics Engineering Student | Mechanical Design Focused</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Connect with me!</a>
+                <a href="#projects" class="btn btn-outline">View Projects</a>
+            </div>
+            <div class="hero-social">
+                <a href="https://www.linkedin.com/in/moaz-elanany/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:moazelanany@outlook.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span class="accent">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-placeholder">
+                            <i class="fas fa-user"></i>
+                            <p>Your Photo</p>
+                        </div>
+                        <div class="about-image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I am a <strong>3rd year Mechatronics Engineering</strong> student at Sakarya University of Applied Sciences on a <strong>fully funded Türkiye Bursları merit scholarship</strong>. My passion lies in <strong>mechanical design</strong> &mdash; transforming concepts into functional, real-world systems.</p>
+                    <p>From designing brake and suspension systems for Formula Student vehicles at <strong>SUBÜ TETRA</strong> to conducting R&D work on city bus cabins and air curtain systems at <strong>KNS OTOMOTİV</strong>, I thrive on turning CAD models into engineered solutions. My toolkit spans SolidWorks, CATIA, Autodesk Inventor, and Fusion 360.</p>
+                    <p>Beyond engineering, I'm a <strong>trilingual communicator</strong> (Arabic, English, Turkish) who has served as a guide officer at international defense fairs and freelanced as a translator. When I'm not designing, you'll find me exploring new fabrication techniques or working on personal R&D projects like rim-driven propellers.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="3">0</span>+
+                            <span class="stat-label">Engineering Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Languages Spoken</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="4">0</span>+
+                            <span class="stat-label">CAD Tools Mastered</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Work <span class="accent">Experience</span></h2>
+            <div class="timeline">
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>R&D Mechanical Design Engineering Intern</h3>
+                            <span class="timeline-company">KNS OTOMOTİV</span>
+                            <span class="timeline-date">Jan 2026 &ndash; Present &bull; Sakarya, Türkiye</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Designed and modified the Volvo city bus driver cabin for GB Bus using Autodesk Inventor</li>
+                            <li>Conducted R&D analysis on bus air curtain concepts, including motor layouts, crossflow fans, IP54 protection, and 1000 m&sup3;/h airflow to support design decisions for INDCAR</li>
+                            <li>Contributed to prototyping and validation processes, including comparative material testing (ABS vs. Aluminum sheet) for a Turkish Airlines trolley project</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Autodesk Inventor</span>
+                            <span class="tag">R&D</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">Material Testing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Mechanical Design Engineer</h3>
+                            <span class="timeline-company">SUBÜ TETRA</span>
+                            <span class="timeline-date">Oct 2023 &ndash; Aug 2025 &bull; Sakarya, Türkiye</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Designed brake, suspension, and key mechanical components using SolidWorks for electric, autonomous, and Formula Student vehicles</li>
+                            <li>Contributed to TETRA's participation in FS Switzerland and TEKNOFEST, securing 3rd place nationwide</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">SolidWorks</span>
+                            <span class="tag">Formula Student</span>
+                            <span class="tag">Brake Systems</span>
+                            <span class="tag">Suspension</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Glass Processing Operator</h3>
+                            <span class="timeline-company">SER CAM</span>
+                            <span class="timeline-date">Feb 2024 &ndash; Aug 2024 &bull; Sakarya, Türkiye</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Worked as a part-time operator in the production department of a high-performance glass factory</li>
+                            <li>Sealed double and triple Comfort and Sinerji glass units with argon gas to improve heat and radiation insulation</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Manufacturing</span>
+                            <span class="tag">Production</span>
+                            <span class="tag">Quality Control</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Freelance Subtitle & Prompter Operator</h3>
+                            <span class="timeline-company">Upwork</span>
+                            <span class="timeline-date">Jan 2025 &ndash; Jun 2025 &bull; Online</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Translated, adapted, and subtitled Turkish TV content (30+ titles) into Arabic and English with linguistic precision and cultural localization</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Translation</span>
+                            <span class="tag">Arabic</span>
+                            <span class="tag">English</span>
+                            <span class="tag">Turkish</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Freelance English Teacher</h3>
+                            <span class="timeline-company">ÖğretmenBulun</span>
+                            <span class="timeline-date">Jan 2025 &ndash; Jun 2025 &bull; Online</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Provided online English tutoring to children and teenagers, improving their fluency and confidence in grammar, vocabulary, and communication</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Teaching</span>
+                            <span class="tag">English</span>
+                            <span class="tag">Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Bachelor of Mechatronics Engineering</h3>
+                    <p class="education-school">Sakarya University of Applied Sciences</p>
+                    <p class="education-date">Oct 2023 &ndash; Jun 2027 (Expected)</p>
+                    <p class="education-desc">3rd Year Student &bull; Focus on Mechanical Design &bull; Sakarya, Türkiye</p>
+                    <div class="education-highlights">
+                        <span>CGPA: 3.36</span>
+                        <span>Türkiye Bursları</span>
+                        <span>Merit Scholarship</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="mechanical">Mechanical Design</button>
+                <button class="filter-btn" data-filter="research">Research</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="mechanical">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-fan"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-status ongoing">Ongoing</div>
+                        <h3>RIM-Driven Propeller System</h3>
+                        <p class="project-date">Nov 2025 &ndash; Present</p>
+                        <p>Developing a rim-driven propeller system aimed at improving aerodynamic efficiency and reducing tip energy loss and noise in aviation applications. Responsible for blade-rim designing and assisting in upcoming CFD analysis to optimize performance.</p>
+                        <div class="project-tags">
+                            <span>CAD Design</span>
+                            <span>CFD Analysis</span>
+                            <span>Aerodynamics</span>
+                            <span>R&D</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="mechanical">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Hybrid Water Turbine</h3>
+                        <p class="project-date">2022</p>
+                        <p>Designed and simulated the CAD model of an automated adjustable-blade water turbine and contributed to its IoT-based control system. The system achieved up to 7% higher efficiency and maintained stable power generation even at low water levels and flow rates.</p>
+                        <div class="project-tags">
+                            <span>CAD Modeling</span>
+                            <span>Simulation</span>
+                            <span>IoT</span>
+                            <span>Turbine Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="research">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cement Factories Pollution Reduction</h3>
+                        <p class="project-date">2020 &ndash; 2021</p>
+                        <p>Worked as a research assistant in an environmental impact study on cement factory emissions (NOx, COx, SOx, dust). Analyzed chemical reactions and co-developed a chimney-integrated system using Teflon plates and steam boilers to capture and convert pollutants into industrial acids.</p>
+                        <div class="project-tags">
+                            <span>Research</span>
+                            <span>Environmental Engineering</span>
+                            <span>Chemical Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TETRA Highlight Project -->
+                <div class="project-card" data-category="mechanical">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-status award">3rd Place &ndash; TEKNOFEST</div>
+                        <h3>SUBÜ TETRA &ndash; Formula Student Vehicles</h3>
+                        <p class="project-date">Oct 2023 &ndash; Aug 2025</p>
+                        <p>Designed brake, suspension, and key mechanical components using SolidWorks for electric, autonomous, and Formula Student vehicles. Participated in FS Switzerland and TEKNOFEST competitions.</p>
+                        <div class="project-tags">
+                            <span>SolidWorks</span>
+                            <span>Brake Design</span>
+                            <span>Suspension</span>
+                            <span>Competition</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteering Section -->
+    <section id="volunteering" class="section">
+        <div class="container">
+            <h2 class="section-title">Volunteering</h2>
+            <div class="volunteer-grid">
+                <div class="volunteer-card">
+                    <div class="volunteer-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="volunteer-info">
+                        <h3>Guide Officer & Translator</h3>
+                        <p class="volunteer-org">IDEF &ndash; International Defense Industry Fair</p>
+                        <p class="volunteer-date">Jul 2025 &bull; Istanbul, Türkiye</p>
+                        <ul>
+                            <li>Selected as a trilingual (AR-EN-TR) civil host for the Egyptian Defense Industries delegation</li>
+                            <li>Provided real-time translation and cultural guidance during official meetings and company visits</li>
+                            <li>Assisted delegation in engagements with leading defense companies, including BAYKAR, HAVELSAN, ROKETSAN, STM, among others</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="volunteer-card">
+                    <div class="volunteer-icon">
+                        <i class="fas fa-microphone-alt"></i>
+                    </div>
+                    <div class="volunteer-info">
+                        <h3>IT Support Technician</h3>
+                        <p class="volunteer-org">TEDx STEM High School</p>
+                        <p class="volunteer-date">Mar 2018 &ndash; Jul 2019 &bull; Red Sea, Egypt</p>
+                        <ul>
+                            <li>Worked as part of the organizing team, providing technical support during events and workshops</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-cube"></i></div>
+                    <h3>3D CAD & Simulation</h3>
+                    <p>SolidWorks, CATIA, Autodesk Inventor, Fusion 360</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-calculator"></i></div>
+                    <h3>Simulation & Analysis</h3>
+                    <p>MATLAB & Simulink, Proteus, CFD Analysis</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <p>C, C++, Java, Kotlin, XML, MATLAB</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>Embedded Systems</h3>
+                    <p>STM32cubeIDE, Android Studio, IoT Development</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-industry"></i></div>
+                    <h3>Manufacturing</h3>
+                    <p>Prototyping, Material Testing, Validation, Production</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-drafting-compass"></i></div>
+                    <h3>Mechanical Design</h3>
+                    <p>Brake Systems, Suspension, Propeller Design, Turbines</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-language"></i></div>
+                    <h3>Languages</h3>
+                    <p>Arabic (Native), English (C1), Turkish (C1)</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-closed-captioning"></i></div>
+                    <h3>Translation & Subtitling</h3>
+                    <p>Turkish &harr; Arabic, Turkish &harr; English, Cultural Localization</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in <span class="accent">Touch</span></h2>
+            <p class="contact-subtitle">Let's chat about engineering, design, or collaboration opportunities!</p>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:moazelanany@outlook.com">moazelanany@outlook.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin-in"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/moaz-elanany/" target="_blank">linkedin.com/in/moaz-elanany</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+905348194715">+90 (534) 819-4715</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Sakarya, Türkiye</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Designed & Built by <span class="accent">Moaz Elanany</span></p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/moaz-elanany/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:moazelanany@outlook.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
